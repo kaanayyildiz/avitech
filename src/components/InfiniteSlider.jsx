@@ -18,7 +18,7 @@ export default function InfiniteSlider() {
                 <img src="src/assets/tai.png" alt="tai" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="src/assets/airbus.png" alt="airbus" className='w-28' />
+                <img src="https://raw.githubusercontent.com/kaanayyildiz/avitech/main/src/assets/airbus.png" alt="airbus" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
                 <img src="src/assets/boeing.png" alt="boeing" className='w-28' />
@@ -33,7 +33,7 @@ export default function InfiniteSlider() {
                 <img src="src/assets/tai.png" alt="tai" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="src/assets/airbus.png" alt="airbus" className='w-28' />
+                <img src="https://raw.githubusercontent.com/kaanayyildiz/avitech/main/src/assets/airbus.png" alt="airbus" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
                 <img src="src/assets/boeing.png" alt="boeing" className='w-28' />
