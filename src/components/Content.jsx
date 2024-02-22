@@ -32,21 +32,6 @@ export default function Content() {
             </div>
           </div>
         </div>
-        <div className="p-5 mx-auto" id="contact-us">
-          <h1 className="text-sm">Contact Us</h1>
-          <h2 className="font-bold text-2xl md:text-4xl">
-            Get in Touch with Us
-          </h2>
-          <p className="text-gray-500 pt-3">
-            Whether you have inquiries, innovative ideas, or are poised to
-            kickstart a project, our team is eager to connect with you. <br />{" "}
-            Get in touch today, and let's begin transforming your vision into
-            reality.
-          </p>
-        </div>
-        <div className="google-map p-5">
-          <Map />
-        </div>
       </div>
       <div className="bottom-inf w-full bg-gray-100 mb-5">
         <div className="mx-auto 2xl:max-w-[90rem] p-12">
@@ -62,6 +47,23 @@ export default function Content() {
               </a>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="w-full mx-auto 2xl:max-w-[90rem] p-6 text-gray-900">
+        <div className="p-5 mx-auto" id="contact-us">
+          <h1 className="text-sm">Contact Us</h1>
+          <h2 className="font-bold text-2xl md:text-4xl">
+            Get in Touch with Us
+          </h2>
+          <p className="text-gray-500 pt-3">
+            Whether you have inquiries, innovative ideas, or are poised to
+            kickstart a project, our team is eager to connect with you. <br />{" "}
+            Get in touch today, and let's begin transforming your vision into
+            reality.
+          </p>
+        </div>
+        <div className="google-map p-5">
+          <Map />
         </div>
       </div>
     </>
