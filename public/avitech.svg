@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>avitech-svg</title>
+	<defs>
+		<image width="26" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAARCAYAAADDjbwNAAAAAXNSR0IB2cksfwAABEZJREFUeJxjYKAR6F16jWnCyhvaE1fekJ68+hYnimTfsmsME1bcYJy06ibrjI13ybakZuoZ5qbZFwzaF1xO6Vp8Vatv+XUOuGTttLMMTbMvsrbMvagOdAUnuRYVdh3lKuk9Hlg56VRN4+wLoUDLxIGWMYMlM5sPMma1HJIs7D7m1DjrgjzQV8zYDGmZe0mwdd4lq+bZFy3K+k/K5LUfZofJxVXuYkys3iOV1rA/JbftcCPQMq+KSacEa6efZQQrCCvYyhBeuE0SqDAov/OoWtWUMyzYLFG0Lmf0y1hhFl64cV5K3b7pyXV7EzKaD3CD5AKyNjKH5m8xiyja1hJXsasMaJlxTushrryOIwgDzAImC7snLo+KKt2hkdqwn2n6+juM6JboeXYzGftOkLINn10YkLXmSFH3sSONs853dS66ImQdOlPIMWZRiGfKqvagnE3pEUXbVaPLdmKGiKZzc4xF0FTnsPytzJ0Lr7D0LrsmCJNTtqliULGr4VFzqPPQdW/r9c9ctqy45+jBljkXj3YsvLwtpXZrgJ5nZ6GJ/8R2h+gFrt5pa0UCszcxYY08ZZvKOjX7GqPinuOqVZNPm7cvuMiuaFnKCcSGipZlyYpW5eUqttVxvumLcwq6Dp+qnnJmWcXEE11J1VseWwX3b9JwaszS8+zSMvGbwGEdMgOrHWCgZFVuZOTd0ecWP2eynltTEdCCMiBuA+I8oEUOQItULYP65bNaDqbkdxy5Hl+xpdPUr2uiS+zMN/4ZS1d4JM3XUnOsx+4LZOAQNd/YLX5xjl34FD2g4WogrGxdrgKkpUA+A6kBJhTZhKrdM6NKtjy0COybAHRYVUju2l1xFTsOxlfutidoCQjoe3XnuiUsk9BxaWKyDOxmrplygqdnyTVRkBwwbpg1nZvkbSNmFYTkbzkTnLtppb5Hq7JD5Ex5YCprAOIHIXlbsoiySNm2qkrLuZkZmCeYCjqPylVMPOVoFdwroGBZ5goMtlpV+9pyq9AZzc5xSy65JS2PAgYXS3brITH/rLX5zvFL7jvFLppiEzqLn6BFwOBJBeJSTae6FNvQyXPU7atbgfypQJypaFWmouXSYgRMWZsNvHv2Ay3Ujinf6R5ftafJK2VppoF3705giOzQ9eg0IcYiLi2XZlXr0Bkluq7N2tC4EQCJAxMKKzB5OwJ99UTbtWWbY8zCep/0tZXhhds1TXx75NTs67qBcjdV7GvjCFqk4dzECMSW+p7dpio2lUxAC+AZFhh0PErWFdEqdtWnNF2a1xn69IcBLeMPzt3CpGJbxaZoVREDVHMDiDuAQc2F30dW5YxA7KhoWe4A9SEIcwCxKdBHlTpuzZtc4uasiS3fZKPv1cNs6j8JrA/oAAZIXivdCMQHgdiOQNCVgTAfOE4sS2uBuBGIW4C4WNWuJtnIp2eNTdj0BW6Ji6WxBLsQEFcA8V4gDgA5EhcAADEPqz/A7s9KAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<path id="Şekil 1" class="s0" d="m16 32c-8.8 0-16-7.2-16-16 0-8.8 7.2-16 16-16 8.8 0 16 7.2 16 16 0 8.8-7.2 16-16 16z"/>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,3,7)"/>
+</svg>
