@@ -66,7 +66,7 @@ export default function Content() {
         <div className="grid md:grid-cols-3 p-5">
           <div className="text-2xl md:text-3xl flex items-center gap-2 pb-5 md:p-0">
             <HiMapPin />
-            <a href="https://www.google.com/maps?ll=41.09325,29.09603&z=15&t=m&hl=en&gl=US&mapclient=embed&q=41%C2%B005%2735.7%22N+29%C2%B005%2745.7%22E+41.093250,+29.096030@41.09325,29.09603">Istanbul, Turkey</a>
+            <a>Istanbul, Turkey</a>
           </div>
           <div className="text-2xl md:text-3xl flex items-center gap-2 pb-5 md:p-0">
             <HiMiniPhone />
