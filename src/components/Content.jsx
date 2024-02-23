@@ -1,4 +1,5 @@
 import Map from "./Map";
+import { HiMapPin, HiMiniPhone } from "react-icons/hi2";
 
 export default function Content() {
   return (
@@ -35,7 +36,7 @@ export default function Content() {
       </div>
       <div className="bottom-inf w-full bg-gray-100 mb-5">
         <div className="mx-auto 2xl:max-w-[90rem] p-12">
-          <div className="grid grid-cols-2">
+          <div className="grid md:grid-cols-2 gap-y-5 md:gap-0">
             <div className="text-2xl md:text-4xl">
               Avitech is always ready for your collaborations.
             </div>
@@ -61,6 +62,17 @@ export default function Content() {
             Get in touch today, and let's begin transforming your vision into
             reality.
           </p>
+        </div>
+        <div className="grid md:grid-cols-4 p-5 ">
+          <div className="text-2xl md:text-3xl flex gap-2 pb-5 md:p-0">
+            <HiMapPin />
+            <span>Istanbul, Turkey</span>
+          </div>
+          <div className="text-2xl md:text-3xl flex gap-2">
+            <HiMiniPhone />
+            <a href="tel:+902164250325">{'+90 (216) 425 03 25'}</a>
+          </div>
+          <div></div>
         </div>
         <div className="google-map p-5">
           <Map />

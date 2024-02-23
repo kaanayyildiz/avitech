@@ -2,7 +2,7 @@ export default function Map() {
   return (
     <>
     
-    <div style={{ width: "100%" }} className="overflow">
+    <div style={{ width: "100%" }} className="overflow-hidden border-8 border-[#FFF] rounded-md drop-shadow-lg">
       <iframe
         width="100%"
         height={400}

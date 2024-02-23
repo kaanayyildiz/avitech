@@ -46,13 +46,13 @@ export default function Hero() {
                     industry.
                   </p>
                 </div>
-                <div className="inline-flex">
+                {/* <div className="inline-flex">
                   <a href="#">
                     <span className="h-10 flex items-center justify-center uppercase font-semibold px-5 border border hover:bg-black hover:text-white text-xs transition duration-500 ease-in-out">
                       See Details
                     </span>
                   </a>
-                </div>
+                </div> */}
                 {/* End Title */}
                 {/* List */}
 
