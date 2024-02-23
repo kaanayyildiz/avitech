@@ -12,34 +12,34 @@ export default function InfiniteSlider() {
             blurBoderColor={'#fff'}
         >
             <Slider.Slide>
-                <img src="https://ibb.co/LYBqDYs" alt="skymark" className='w-28' />
+                <img src="https://i.ibb.co/wB8bZB2/skymark.png" alt="skymark" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://ibb.co/my8mNrk" alt="tai" className='w-28' />
+                <img src="https://i.ibb.co/8xcJYnq/tai.png" alt="tai" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://ibb.co/DzDkBgT" alt="airbus" className='w-28' />
+                <img src="https://i.ibb.co/TYBRQqd/airbus.png" alt="airbus" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://ibb.co/y5pL2Cz" alt="boeing" className='w-28' />
+                <img src="https://i.ibb.co/Qnks0VW/boeing.png" alt="boeing" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://ibb.co/nDqFkcw" alt="lockheed-martin" className='w-28' />
+                <img src="https://i.ibb.co/cNKjTFy/lockheed-martin.png" alt="lockheed-martin" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://ibb.co/LYBqDYs" alt="skymark" className='w-28' />
+                <img src="https://i.ibb.co/wB8bZB2/skymark.png" alt="skymark" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://ibb.co/my8mNrk" alt="tai" className='w-28' />
+                <img src="https://i.ibb.co/8xcJYnq/tai.png" alt="tai" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://ibb.co/DzDkBgT" alt="airbus" className='w-28' />
+                <img src="https://i.ibb.co/TYBRQqd/airbus.png" alt="airbus" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://ibb.co/y5pL2Cz" alt="boeing" className='w-28' />
+                <img src="https://i.ibb.co/Qnks0VW/boeing.png" alt="boeing" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://ibb.co/nDqFkcw" alt="lockheed-martin" className='w-28' />
+                <img src="https://i.ibb.co/cNKjTFy/lockheed-martin.png" alt="lockheed-martin" className='w-28' />
             </Slider.Slide>
         </Slider>
         </div>
