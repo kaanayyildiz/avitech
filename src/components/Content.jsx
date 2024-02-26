@@ -42,7 +42,7 @@ export default function Content() {
             </div>
             <div className="align-middle">
               <a href="mailto:info@avitechmetal.com">
-                <span className="h-10 flex items-center justify-center uppercase font-semibold px-5 border border bg-black text-white hover:bg-white hover:text-black text-xs transition duration-500 ease-in-out">
+                <span className="h-10 flex items-center justify-center uppercase font-semibold px-5 border bg-black text-white hover:bg-white hover:text-black text-xs transition duration-500 ease-in-out">
                   Let's Talk
                 </span>
               </a>
@@ -78,6 +78,42 @@ export default function Content() {
           </div>
         </div>
         <div className="google-map p-5">
+        <form action="https://fabform.io/f/{form-id}" method="post">
+            <div class="mb-5">
+                <label for="name" class="mb-3 block text-base font-medium text-black">
+                    Full Name
+                </label>
+                <input type="text" name="name" id="name" placeholder="Full Name" autoComplete="off"
+                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-black focus:shadow-md transition duration-500" />
+            </div>
+            <div class="mb-5">
+                <label for="email" class="mb-3 block text-base font-medium text-black">
+                    Email Address
+                </label>
+                <input type="email" name="email" id="email" placeholder="example@domain.com" autoComplete="off"
+                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-black focus:shadow-md transition duration-500" />
+            </div>
+            <div class="mb-5">
+                <label for="subject" class="mb-3 block text-base font-medium text-black">
+                    Subject
+                </label>
+                <input type="text" name="subject" id="subject" placeholder="Enter your subject" autoComplete="off"
+                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-black focus:shadow-md transition duration-500" />
+            </div>
+            <div class="mb-5">
+                <label for="message" class="mb-3 block text-base font-medium text-black">
+                    Message
+                </label>
+                <textarea rows="4" name="message" id="message" placeholder="Type your message" autoComplete="off"
+                    class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-black focus:shadow-md transition duration-500"></textarea>
+            </div>
+            <div>
+                <button
+                    class="hover:shadow-form uppercase py-3 px-8 font-semibold px-5 border border bg-black text-white hover:bg-white hover:text-black text-xs transition duration-500 ease-in-out outline-none">
+                    Submit
+                </button>
+            </div>
+        </form>
           <Map />
         </div>
       </div>
