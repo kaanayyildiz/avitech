@@ -15,31 +15,19 @@ export default function InfiniteSlider() {
                 <img src="https://i.ibb.co/wB8bZB2/skymark.png" alt="skymark" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://i.ibb.co/8xcJYnq/tai.png" alt="tai" className='w-28' />
-            </Slider.Slide>
-            <Slider.Slide>
                 <img src="https://i.ibb.co/TYBRQqd/airbus.png" alt="airbus" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
                 <img src="https://i.ibb.co/Qnks0VW/boeing.png" alt="boeing" className='w-28' />
-            </Slider.Slide>
-            <Slider.Slide>
-                <img src="https://i.ibb.co/cNKjTFy/lockheed-martin.png" alt="lockheed-martin" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
                 <img src="https://i.ibb.co/wB8bZB2/skymark.png" alt="skymark" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
-                <img src="https://i.ibb.co/8xcJYnq/tai.png" alt="tai" className='w-28' />
-            </Slider.Slide>
-            <Slider.Slide>
                 <img src="https://i.ibb.co/TYBRQqd/airbus.png" alt="airbus" className='w-28' />
             </Slider.Slide>
             <Slider.Slide>
                 <img src="https://i.ibb.co/Qnks0VW/boeing.png" alt="boeing" className='w-28' />
-            </Slider.Slide>
-            <Slider.Slide>
-                <img src="https://i.ibb.co/cNKjTFy/lockheed-martin.png" alt="lockheed-martin" className='w-28' />
             </Slider.Slide>
         </Slider>
         </div>
