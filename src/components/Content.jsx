@@ -80,7 +80,7 @@ export default function Content() {
           </div>
         </div>
         <div className="p-5">
-          <form action="#" method="post">
+          <form action="/" method="GET">
             <div class="mb-5">
               <label
                 for="name"
