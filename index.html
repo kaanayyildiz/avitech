@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth" translate="no">
   <head>
     <meta charset="UTF-8" />
@@ -7,12 +7,29 @@
     <title>Avitech Metal</title>
     <meta property="og:title" content="Avitech Metal" />
     <meta property="og:url" content="https://avitechmetal.vercel.app/" />
-    <meta property="og:image" content="https://avitechmetal.vercel.app/assets/avitech-DiLbnigO.png" />
+    <meta
+      property="og:image"
+      content="https://avitechmetal.vercel.app/assets/avitech-DiLbnigO.png"
+    />
 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "guaC3Y6EP8jmm6KcV",
+        });
+      })();
+    </script>
   </body>
 </html>
