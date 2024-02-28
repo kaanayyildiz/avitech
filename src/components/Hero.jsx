@@ -1,6 +1,9 @@
 import React from "react";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
+import Skeleton from "./Skeleton";
+import { useState } from "react";
+import { useEffect } from "react";
 
 export default function Hero() {
   const [index, setIndex] = React.useState(0);
@@ -26,7 +29,7 @@ export default function Hero() {
                 {t("heroStateYour")}{" "}
                 <span className="text-[#7D95C5] inline-flex flex-col h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] overflow-hidden">
                   <ul className="block animate-text-slide-3 text-left leading-tight [&_li]:block">
-                    <li>{t('heroDream')}</li>
+                    <li>{t("heroDream")}</li>
                     <li>{t("heroDesign")}</li>
                     <li>{t("heroInspiration")}</li>
                     <li>{t("heroDream")}</li>
@@ -42,7 +45,7 @@ export default function Hero() {
                 {/* Title */}
                 <div className="space-y-2 md:space-y-4">
                   <p className="text-gray-700 text-xs md:text-base">
-                  {t('heroDesc')}
+                    {t("heroDesc")}
                   </p>
                 </div>
                 {/* <div className="inline-flex">
