@@ -1,7 +1,10 @@
 import React from "react";
+import i18n from "../i18n";
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
   const [index, setIndex] = React.useState(0);
+  const { t, i18n } = useTranslation();
 
   React.useEffect(() => {
     const intervalId = setInterval(
@@ -20,16 +23,16 @@ export default function Hero() {
             <div className="items-start italic">
               {/* Sliding Text animation */}
               <div className="font-bold text-4xl md:text-5xl [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-t from-[#213975] to-[#98B0DC]">
-                State Your{" "}
-                <span className=" text-[#7D95C5] inline-flex flex-col h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] overflow-hidden">
+                {t("heroStateYour")}{" "}
+                <span className="text-[#7D95C5] inline-flex flex-col h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] overflow-hidden">
                   <ul className="block animate-text-slide-3 text-left leading-tight [&_li]:block">
-                    <li>Dream</li>
-                    <li>Design</li>
-                    <li>Inspiration</li>
-                    <li>Dream</li>
+                    <li>{t('heroDream')}</li>
+                    <li>{t("heroDesign")}</li>
+                    <li>{t("heroInspiration")}</li>
+                    <li>{t("heroDream")}</li>
                   </ul>
                 </span>{" "}
-                to Build a Future
+                {t("heroToBuildAFuture")}
               </div>
               {/* End: Sliding Text animation */}
             </div>
@@ -39,11 +42,7 @@ export default function Hero() {
                 {/* Title */}
                 <div className="space-y-2 md:space-y-4">
                   <p className="text-gray-700 text-xs md:text-base">
-                    Our company operates with a vision aiming for excellence in
-                    the manufacturing of aircraft components. By embracing
-                    customer satisfaction as a fundamental principle, we aim to
-                    become a reliable and quality symbol in the aviation
-                    industry.
+                  {t('heroDesc')}
                   </p>
                 </div>
                 {/* <div className="inline-flex">

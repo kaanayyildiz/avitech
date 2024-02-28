@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="w-full max-w-screen-xl mx-auto p-5 uppercase">
           <span className="block text-sm text-gray-800 sm:text-center">
             © COPYRIGHT 2024{", "}
-            <a href="https://avitech.com/" className="hover:underline">
+            <a href="https://avitechmetal.com/" className="hover:underline">
             Avitech
             </a>
           </span>
