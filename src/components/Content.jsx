@@ -93,7 +93,7 @@ export default function Content() {
                   <a href="https://www.linkedin.com/company/avitech-metal/">
                     <button className="h-10 flex items-center font-semibold rounded-lg gap-x-4 p-5 border text-[#007EBB] hover:bg-[#007EBB] hover:text-white text-md transition duration-500 ease-in-out">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns="https://www.w3.org/2000/svg"
                         height="22"
                         viewBox="0 0 72 72"
                       >
