@@ -23,13 +23,13 @@ export default function Map() {
         </div>
         <div>
           <div class="max-w-full mx-auto rounded-lg overflow-hidden">
-            <div class="px-6 py-4">
+            <div class="md:px-6 py-4">
               <h3 class="text-lg font-medium text-gray-900">{t('footerOurAdress')}</h3>
               <p class="mt-1 text-gray-600">
                 Rüzgarlıbahçe, K Plaza 34805 Beykoz/İstanbul, Türkiye
               </p>
             </div>
-            <div class="border-t border-gray-200 px-6 py-4">
+            <div class="border-t border-gray-200 md:px-6 py-4">
               <h3 class="text-lg font-medium text-gray-900">{t('footerHoursTitle')}</h3>
               <p class="mt-1 text-gray-600">{t('Monday')} - {t('Friday')}: {t('EightAm')} - {t('SixPm')}</p>
               <p class="mt-1 text-gray-600">{t('Saturday')}: {t('Closed')}</p>

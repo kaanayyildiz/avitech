@@ -40,7 +40,6 @@ export default function Navbar() {
                 <img src={avitechLogo} alt="Avitech" width={140} height={80} />
               </span>
             </a>
-            <button className="inline-flex items-center justify-center p-2 text-gray-400 hover:text-black focus:outline-none focus:text-black md:hidden"></button>
           </div>
           <nav className="flex-col items-center flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row uppercase font-bold transition ">
             <a
@@ -109,7 +108,7 @@ export default function Navbar() {
               </div>
             </div>
 
-           
+            
           </nav>
         </div>
       </div>

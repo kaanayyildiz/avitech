@@ -85,7 +85,7 @@ export default function Content() {
                   <h2 className="font-bold text-2xl md:text-4xl">
                     {t("contentContactUsHead")}
                   </h2>
-                  <p className="text-gray-500 pt-3">
+                  <p className="text-gray-500 pt-3 text-sm">
                     {t("contentContactUsText")}
                   </p>
                 </div>
@@ -115,17 +115,17 @@ export default function Content() {
               </div>
 
               <div className="grid md:grid-cols-3 p-5">
-                <div className="text-2xl md:text-3xl flex items-center gap-2 pb-5 md:p-0">
+                <div className="text-lg md:text-3xl flex items-center gap-2 pb-5 md:p-0">
                   <HiMapPin />
                   <a href="https://www.google.com/maps?ll=41.09325,29.09603&z=15&t=m&hl=en&gl=US&mapclient=embed&q=41%C2%B005%2735.7%22N+29%C2%B005%2745.7%22E+41.093250,+29.096030@41.09325,29.09603">
                     Istanbul, Turkey
                   </a>
                 </div>
-                <div className="text-2xl md:text-3xl flex items-center gap-2 pb-5 md:p-0">
+                <div className="text-lg md:text-3xl flex items-center gap-2 pb-5 md:p-0">
                   <HiMiniPhone />
                   <a href="tel:+902164250325">{"+90 (216) 425 03 25"}</a>
                 </div>
-                <div className="text-2xl md:text-3xl flex items-center gap-2 pb-5 md:p-0 flex-row">
+                <div className="text-lg md:text-3xl flex items-center gap-2 pb-5 md:p-0 flex-row">
                   <HiEnvelope />
                   <a href="mailto:info@avitechmetal.com">
                     info@avitechmetal.com

@@ -44,7 +44,7 @@ export default function Hero() {
               <div className="space-y-6 sm:space-y-8">
                 {/* Title */}
                 <div className="space-y-2 md:space-y-4">
-                  <p className="text-gray-700 text-xs md:text-base">
+                  <p className="text-gray-700 text-md md:text-base">
                     {t("heroDesc")}
                   </p>
                 </div>
