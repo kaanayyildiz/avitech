@@ -1,7 +1,6 @@
 import Map from "./Map";
 import { HiEnvelope, HiMapPin, HiMiniPhone } from "react-icons/hi2";
 import { useTranslation } from "react-i18next";
-import Arrow from "../assets/arrow.svg";
 import Skeleton from "./Skeleton2";
 import { useState } from "react";
 import { useEffect } from "react";
