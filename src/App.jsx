@@ -7,7 +7,6 @@ import InfiniteSlider from './components/InfiniteSlider'
 import Footer from './components/Footer'
 import Content from './components/Content'
 import './i18n'
-import { useTranslation } from 'react-i18next'
 
 function App() {
   
